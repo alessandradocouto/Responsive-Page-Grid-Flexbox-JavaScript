@@ -40,10 +40,9 @@ h1, h2, h3, h4, h5, h6{
     -ms-grid-column-span: 3;
     grid-area: header;
     background-image: url(images/mobile/image-header.jpg);
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100%;
     min-height: 600px;
     max-height: 100vh;
 }
@@ -71,6 +70,38 @@ h1, h2, h3, h4, h5, h6{
 
 .nav-menu li{
     list-style: none;
+}
+
+#menu-mobile{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-menu{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    top: 90px;
+    margin: 1.25em auto;
+    padding: 2.5em 0;
+    width: 90%;
+    transition: all 0.6s;
+    visibility: hidden;
+    overflow-y: hidden;
+    z-index: 1;
+}
+
+.nav.show .nav-menu{
+    visibility: visible;
+    overflow-y: auto;
 }
 
 .nav-logo-button{
@@ -465,42 +496,6 @@ footer{
 
 /* MEDIA QUERIES DESKTOP */
 
-@media (max-width: 767px){
-
-    #menu-mobile{
-        background: none;
-        border: none;
-        cursor: pointer;
-    }
-
-    .nav-menu{
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        background-color: rgb(245, 245, 245);
-        position: absolute;
-        top: 90px;
-        margin: 1.25em auto;
-        padding: 2.5em 0;
-        width: 90%;
-        transition: all 0.6s;
-        visibility: hidden;
-        overflow-y: hidden;
-        z-index: 1;
-    }
-
-    .nav.show .nav-menu{
-        visibility: visible;
-        overflow-y: auto;
-    }
-
-}
-
 
 @media (min-width: 768px){
 
@@ -567,6 +562,10 @@ footer{
 
     .nav-menu-link{
         color: hsl(0, 0%, 100%);
+    }
+    
+    #nav-menu-contact{
+        color: hsl(232, 10%, 55%);
     }
 
     /* ABOUT */
