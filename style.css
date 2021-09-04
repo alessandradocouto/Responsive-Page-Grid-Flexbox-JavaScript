@@ -88,15 +88,6 @@ h1, h2, h3, h4, h5, h6{
         -ms-flex-align: center;
             align-items: center;
     background-color: rgb(245, 245, 245);
-    position: absolute;
-    top: 90px;
-    margin: 1.25em auto;
-    padding: 2.5em 0;
-    width: 90%;
-    transition: all 0.6s;
-    visibility: hidden;
-    overflow-y: hidden;
-    z-index: 1;
 }
 
 .nav.show .nav-menu{
@@ -298,6 +289,7 @@ main{
 
 .container-service-text{
     max-width: 65%;
+    align-self: flex-end;
     margin-bottom: 3em;
 }
 
@@ -492,6 +484,22 @@ footer{
 }
 
 
+@media (max-width: 767px){
+
+    .nav-menu{
+        position: absolute;
+        top: 90px;
+        margin: 1.25em auto;
+        padding: 2.5em 0;
+        width: 90%;
+        transition: all 0.6s;
+        visibility: hidden;
+        overflow-y: hidden;
+        z-index: 1;
+    }
+
+
+}
 
 
 /* MEDIA QUERIES DESKTOP */
@@ -656,7 +664,7 @@ footer{
 
     .testimonial-item-text{
         font-size: 1em;
-        max-width: 95%;
+        max-width: 90%;
     }
 
     /* PROJECTS */
