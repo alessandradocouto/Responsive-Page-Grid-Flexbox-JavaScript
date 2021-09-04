@@ -566,6 +566,7 @@ footer{
     
     #nav-menu-contact{
         color: hsl(232, 10%, 55%);
+        background-color: color: hsl(0, 0%, 100%);
     }
 
     /* ABOUT */
@@ -623,17 +624,17 @@ footer{
 
     .container-service-graph-img{
         background-image: url(images/desktop/image-graphic-design.jpg);
-        background-position: center;
+        background-position: top center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         max-width: 50%;
     }
 
     .container-service-photo-img{
         background-image: url(images/desktop/image-photography.jpg);
-        background-position: center;
+        background-position: top center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         max-width: 50%;
     }
 
