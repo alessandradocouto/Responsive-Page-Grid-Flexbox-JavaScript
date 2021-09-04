@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6{
 #nav-menu-contact{
     max-width: 130px;
     margin: auto;
-    padding: 0.9em 1em;
+    padding: 0.8em 1em;
     font-family: 'Fraunces', serif;
     color: hsl(212, 27%, 19%);
     font-size: 1.25em;
@@ -573,8 +573,8 @@ footer{
     }
     
     #nav-menu-contact{
-        color: hsl(232, 10%, 55%);
-        background-color: color: hsl(0, 0%, 100%);
+        color: hsl(212, 27%, 19%);
+        background-color: hsl(0, 0%, 100%);
     }
 
     /* ABOUT */
@@ -664,7 +664,7 @@ footer{
 
     .testimonial-item-text{
         font-size: 1em;
-        max-width: 90%;
+        max-width: 95%;
     }
 
     /* PROJECTS */
