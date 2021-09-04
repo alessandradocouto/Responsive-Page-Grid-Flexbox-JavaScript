@@ -5,4 +5,4 @@ Repositório para fazer upload de diferentes sites de desafios que fiz para melh
 
 ### Feedbacks são bem-vindos! 🥇
 
-![responsive page](https://user-images.githubusercontent.com/51713464/131939220-33ad84fc-59b8-4a71-bc81-eb3da87cbe23.png)
+![challenge-sunnyagency](https://user-images.githubusercontent.com/51713464/132110363-dce3ebe8-8fba-4899-82f6-eea0d9725302.png)
